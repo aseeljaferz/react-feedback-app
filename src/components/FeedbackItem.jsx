@@ -13,7 +13,7 @@ const FeedbackItem = ({ item }) => {
       <button onClick={() => deleteFeedback(item.id)} className='close'>
         <FaTimes color='purple' />
       </button>
-      <button onClick={() => editFeedback(item.id)} className="edit">
+      <button onClick={() => editFeedback(item)} className="edit">
         <FaEdit color='Purple' />
       </button>
       <div className="text-display">{item.text}</div>
